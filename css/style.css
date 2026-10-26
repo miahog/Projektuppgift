@@ -228,6 +228,14 @@ footer p {
     display: none;
 }
 
+.desktop-nav {
+    display: none;
+}
+
+.view-all {
+    display: none;
+}
+
 /*DESKTOP*/
 @media (min-width: 768px) {
 
@@ -246,6 +254,22 @@ footer p {
         max-width: 1200px;
         margin: 0 auto;
         padding: 1.5rem 2rem;
+    }
+
+    .desktop-nav {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .desktop-nav a {
+        text-decoration: none;
+        color: #666;
+        font-weight: 400;
+    }
+
+    .header-icons {
+        display: none;
     }
 
     /*HERO*/
@@ -269,6 +293,20 @@ footer p {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
+    }
+
+    .products-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .view-all {
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        color: #222;
     }
 
     /*ABOUT*/
