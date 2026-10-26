@@ -134,6 +134,7 @@ header {
 .about p {
     color: #666;
     line-height: 1.8;
+    margin-bottom: 1rem;
 }
 
 .about img {
