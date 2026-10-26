@@ -122,7 +122,7 @@ header {
 /*ABOUT*/
 .about {
     background: #ececec;
-    padding: 2rem 1rem;
+    padding: 2rem 1.2rem;
 }
 
 .about h2 {
@@ -134,9 +134,62 @@ header {
     line-height: 1.8;
 }
 
+.about img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 1.2rem;
+
+}
 
 
+/*CONTACT*/
+.contact {
+    padding: 2rem 1.2rem;
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 140px;
+    resize: none;
+}
+
+form button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+    background: #111;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
 
 
 
