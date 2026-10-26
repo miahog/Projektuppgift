@@ -33,26 +33,29 @@
 
     <!--POPULÄRA VÄXTER-->
     <section class="products">
+
         <h2>Populära växter</h2>
-        <div class="product-card">
-            <div class="product-image"><img src="images/image1.jpg" alt="Monstera Deliciosa">
-            </div>
-            <div class="product-info">
-                <h3>Monstera Deliciosa</h3>
-                <p class="price">349 kr</p>
-                <button>Lägg till</button>
-            </div>
+        <div class="products-container">
+            <div class="product-card">
+                <div class="product-image"><img src="images/image1.jpg" alt="Monstera Deliciosa">
+                </div>
+                <div class="product-info">
+                    <h3>Monstera Deliciosa</h3>
+                    <p class="price">349 kr</p>
+                    <button>Lägg till</button>
+                </div>
 
-        </div>
-
-        <div class="product-card">
-            <div class="product-image"><img src="images/image2.jpg" alt="Ficus Lyrata"></div>
-            <div class="product-info">
-                <h3>Fikus Lyrata</h3>
-                <p class="price">499 kr</p>
-                <button>Lägg till</button>
             </div>
 
+            <div class="product-card">
+                <div class="product-image"><img src="images/image2.jpg" alt="Ficus Lyrata"></div>
+                <div class="product-info">
+                    <h3>Fikus Lyrata</h3>
+                    <p class="price">499 kr</p>
+                    <button>Lägg till</button>
+                </div>
+
+            </div>
         </div>
 
     </section>
@@ -61,10 +64,12 @@
     <!--OM OSS-->
     <section class="about">
         <h2>Varför välja oss?</h2>
-        <p>Vi är en lokal butik med passion för växter. Vi väljer ut varje planta med omsorg
-            för att säkerställa att den trivs i ditt hem.
-        </p>
-        <div class="about"><img src="images/image3.jpg" alt="Flera inomhusväxter"></div>
+        <div class="about-content">
+            <p>Vi är en lokal butik med passion för växter. Vi väljer ut varje planta med omsorg
+                för att säkerställa att den trivs i ditt hem.
+            </p>
+            <div class="about"><img src="images/image3.jpg" alt="Flera inomhusväxter"></div>
+        </div>
     </section>
 
 
@@ -72,18 +77,36 @@
     <section class="contact">
         <h2>Kontakta oss</h2>
 
-        <form>
-            <label for="name">Namn</label>
-            <input type="text" id="name" placeholder="Ditt namn">
+        <div class="contact-container">
 
-            <label for="email">E-post</label>
-            <input type="email" id="email" placeholder="Din@email.se">
+            <form>
+                <label for="name">Namn</label>
+                <input type="text" id="name" placeholder="Ditt namn">
 
-            <label for="message">Meddelande</label>
-            <textarea id="message" placeholder="Skriv ditt meddelande här.."></textarea>
+                <label for="email">E-post</label>
+                <input type="email" id="email" placeholder="Din@email.se">
 
-            <button type="submit">Skicka meddelande</button>
-        </form>
+                <label for="message">Meddelande</label>
+                <textarea id="message" placeholder="Skriv ditt meddelande här.."></textarea>
+
+                <button type="submit">Skicka meddelande</button>
+            </form>
+            <aside class="opening-hours">
+                <h3>Öppettider</h3>
+                <div class="hours-row">
+                    <span>Må-Fre</span>
+                    <span>10:00-18:00</span>
+                </div>
+                <div class="hours-row">
+                    <span>Lör</span>
+                    <span>11:00-16:00</span>
+                </div>
+                <div class="hours-row">
+                    <span>Sön</span>
+                    <span>Stängt</span>
+                </div>
+            </aside>
+        </div>
 
     </section>
 
