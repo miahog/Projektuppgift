@@ -11,6 +11,7 @@ body {
     background: #f4f4f4;
     color: #222;
     background-color: #F8F6F1;
+    line-height: 1.8;
 }
 
 /*HEADER*/
@@ -61,16 +62,16 @@ header {
 
 .hero {
     padding: 2rem 1.2rem;
+    border-bottom: 1px solid #ddd;
 }
 
 .hero h2 {
     font-size: 2rem;
-    line-height: 1.1;
     margin-bottom: 1rem;
 }
 
 .hero p {
-    color: #666;
+    color: #222;
     margin-bottom: 1.5rem;
 }
 
@@ -97,6 +98,16 @@ header {
     border-radius: 15px;
     margin-bottom: 1.2rem;
     overflow: hidden;
+}
+
+.product-card p {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    color: #222;
+
 }
 
 .product-info {
@@ -133,7 +144,6 @@ header {
 
 .about p {
     color: #666;
-    line-height: 1.8;
     margin-bottom: 1rem;
 }
 
@@ -215,7 +225,6 @@ footer h2 {
 
 footer p {
     color: #b5b5b5;
-    line-height: 1.7;
 }
 
 /*Enbart för desktop*/
@@ -294,6 +303,7 @@ footer p {
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
+
 
     .products-header {
         display: flex;
