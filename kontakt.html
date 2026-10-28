@@ -10,24 +10,80 @@
 
 <body>
 
-    <!--KONTAKT-->
-    <section class="contact">
-        <h2>Kontakta oss</h2>
+    <!--HEADER-->
+    <header>
+        <div class="logo">
+            <span>🌿</span>
+            <h1>Gröna Oasen</h1>
+        </div>
+        <nav class="desktop-nav">
+            <a href="index.html">Startsida</a>
+            <a href="sortiment.html">Sortiment</a>
+            <a href="kontakt.html">Kontaktsida</a>
+        </nav>
+        <div class="header-icons">
+            <button>☰</button>
+        </div>
+    </header>
 
-        <form>
-            <label for="name">Namn</label>
-            <input type="text" id="name" placeholder="Ditt namn">
+    <main>
+        <section class="about">
+            <h2>Välkommen att kontakta oss!</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p><strong>Har du frågor om våra växter, behöver råd kring skötsel eller vill ha hjälp att hitta den
+                            perfekta växten för ditt hem? Vi på Gröna Oasen finns här för att hjälpa dig.</strong></p>
+                    <p>Vi brinner för att göra det enkelt och inspirerande att skapa en grönare och mer trivsam miljö,
+                        oavsett om du är nybörjare eller en erfaren växtentusiast. Vårt mål är att erbjuda personlig
+                        service, kunnig rådgivning och ett noggrant utvalt sortiment av växter som passar olika hem och
+                        livsstilar.</p>
+                    <p>Fyll i formuläret nedan så återkommer vi så snart som möjligt. Du är även välkommen att kontakta
+                        oss via e-post eller telefon om du föredrar det. Vi ser fram emot att höra från dig och hjälpa
+                        dig på din gröna resa.</p>
+                </div>
+                <div class="about-image"><img src="images/image3.jpg" alt="Flera inomhusväxter"></div>
+            </div>
+        </section>
 
-            <label for="email">E-post</label>
-            <input type="email" id="email" placeholder="Din@email.se">
 
-            <label for="message">Meddelande</label>
-            <textarea id="message" placeholder="Skriv ditt meddelande här.."></textarea>
+        <!--KONTAKT-->
+        <section class="contact">
+            <h2>Kontakta oss</h2>
 
-            <button type="submit">Skicka meddelande</button>
-        </form>
+            <div class="contact-container">
 
-    </section>
+                <form>
+                    <label for="name">Namn:</label>
+                    <input type="text" id="name" placeholder="Ditt namn">
+
+                    <label for="email">E-post:</label>
+                    <input type="email" id="email" placeholder="Din@email.se">
+
+                    <label for="message">Meddelande:</label>
+                    <textarea id="message" placeholder="Skriv ditt meddelande här.."></textarea>
+
+                    <button type="submit">Skicka meddelande</button>
+                </form>
+                <aside class="opening-hours">
+                    <h3>Öppettider</h3>
+                    <div class="hours-row">
+                        <span>Må-Fre</span>
+                        <span>10:00-18:00</span>
+                    </div>
+                    <div class="hours-row">
+                        <span>Lör</span>
+                        <span>11:00-16:00</span>
+                    </div>
+                    <div class="hours-row">
+                        <span>Sön</span>
+                        <span>Stängt</span>
+                    </div>
+                </aside>
+            </div>
+
+        </section>
+
+    </main>
 
 
     <!--FOOTER-->
