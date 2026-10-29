@@ -392,7 +392,7 @@ footer p {
         padding: 4rem 2rem;
     }
 
-    footer-content {
+    .footer-content {
         max-width: 1200px;
         margin: 0 auto;
     }
