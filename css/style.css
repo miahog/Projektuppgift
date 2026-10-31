@@ -75,6 +75,7 @@ header {
     margin-bottom: 1.5rem;
 }
 
+
 /*PRODUCTS*/
 .products {
     padding: 2rem 1.2rem;
@@ -229,6 +230,7 @@ footer p {
 
 /*Enbart för desktop*/
 
+
 .opening-hours {
     display: none;
 }
@@ -296,6 +298,8 @@ footer p {
         display: inline-block;
         padding: 1rem 2rem;
     }
+
+
 
     /*PRODUCTS*/
     .products-container {
