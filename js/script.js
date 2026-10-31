@@ -57,13 +57,36 @@ function sendMessage() {
 }
 
 //Eventlyssnare
-contactForm.addEventListener("submit", function (event) {
-    event.preventDefault();
 
-    console.log("Formulär skickades");
-    if (validateForm()) {
-        sendMessage();
-    }
+//Kontroll att kontakformulär finns på sidan innan eventlyssnaren läggs in. Förhindrar fel på sortimentsidan.
+if (contactForm) {
+    contactForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        console.log("Formulär skickades");
+        if (validateForm()) {
+            sendMessage();
+        }
+
+    });
+}
+
+
+//Mobilmeny
+
+//Hämta element
+const menuBtn = document.querySelector("#menuBtn");
+const closeMenuBtn = document.querySelector("#closeMenuBtn");
+const mobileMenu = document.querySelector("#mobileMenu");
+
+//Öppna meny
+menuBtn.addEventListener("click", function () {
+    mobileMenu.style.width = "100%";
+});
+
+//Stäng meny
+closeMenuBtn.addEventListener("click", function () {
+    mobileMenu.style.width = "0";
 });
 
 

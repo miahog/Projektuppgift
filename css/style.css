@@ -240,6 +240,44 @@ footer p {
     margin-top: 1rem;
 }
 
+/* MOBILMENY */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F8F6F1;
+    overflow-x: hidden;
+    transition: 0.4s;
+    z-index: 1000;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+.overlay-content a {
+    display: block;
+    margin: 1.5rem 0;
+    text-decoration: none;
+    color: #222;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
 /*Enbart för desktop*/
 
 
