@@ -228,6 +228,18 @@ footer p {
     color: #b5b5b5;
 }
 
+/*Formulärvalidering*/
+.error-message {
+    color: #8B3A3A;
+    font-size: 0, 9rem;
+}
+
+.success-message {
+    color: #222;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
 /*Enbart för desktop*/
 
 

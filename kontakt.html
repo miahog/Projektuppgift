@@ -51,17 +51,21 @@
 
             <div class="contact-container">
 
-                <form>
+                <form id="contactForm">
                     <label for="name">Namn:</label>
                     <input type="text" id="name" placeholder="Ditt namn">
+                    <p class="error-message" id="nameError"></p>
 
                     <label for="email">E-post:</label>
                     <input type="email" id="email" placeholder="Din@email.se">
+                    <p class="error-message" id="emailError"></p>
 
                     <label for="message">Meddelande:</label>
                     <textarea id="message" placeholder="Skriv ditt meddelande här.."></textarea>
+                    <p class="error-message" id="messageError"></p>
 
                     <button type="submit">Skicka meddelande</button>
+                    <p class="success-message" id="successMessage"></p>
                 </form>
                 <aside class="opening-hours">
                     <h3>Öppettider</h3>
@@ -95,6 +99,7 @@
             <p>© 2024 Gröna Oasen</p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
