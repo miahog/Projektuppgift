@@ -9,7 +9,7 @@ Detta projekt är skapat för utbildningsändamål.
 - Figma
 
 ## Funktioner och innehåll
-- Responsiv design för mobil, surfplatta och dator
+- Responsiv design för mobil och dator
 - Tre sammanlänkade webbsidor
 - Presentation av företaget och dess produkter
 - Tydlig navigation mellan sidorna
@@ -18,5 +18,5 @@ Detta projekt är skapat för utbildningsändamål.
 - Anpassat innehåll för målgruppen växtintresserade kunder
 - Versionshantering med Git och GitHub
 
-## Utvecklare
-Mia Höglund
+## Länk till webbsidan
+https://miahog.github.io/Projektuppgift/
