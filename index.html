@@ -13,7 +13,7 @@
 
     <!--HEADER-->
     <header>
-        <!-- Mobilmeny -->
+        <!-- MOBILEMENU -->
         <div id="mobileMenu" class="overlay">
             <button class="close-btn" id="closeMenuBtn">
                 ✕
@@ -39,135 +39,138 @@
 
 
     <!--HERO-->
-    <section class="hero">
-        <h2>Välkommen till Gröna Oasen!</h2>
-        <p>Vi brinner för att göra det enkelt och inspirerande att skapa en grönare och mer trivsam miljö,
-            oavsett om du är nybörjare eller en erfaren växtentusiast.</p>
-        <p><strong>Hitta dina nya favoritväxter och skapa en grön oas i ditt hem. Fri frakt över 500 kr.</strong></p>
-        <a href="sortiment.html" class="btn">Upptäck samlingen</a>
-    </section>
+    <main>
+        <section class="hero">
+            <h2>Välkommen till Gröna Oasen!</h2>
+            <p>Vi brinner för att göra det enkelt och inspirerande att skapa en grönare och mer trivsam miljö,
+                oavsett om du är nybörjare eller en erfaren växtentusiast.</p>
+            <p><strong>Hitta dina nya favoritväxter och skapa en grön oas i ditt hem. Fri frakt över 500 kr.</strong>
+            </p>
+            <a href="sortiment.html" class="btn">Upptäck samlingen</a>
+        </section>
 
 
-    <!--PRODUCTS-->
-    <section class="products">
-        <div class="products-header">
+        <!--PRODUCTS-->
+        <section class="products">
+            <div class="products-header">
 
-            <h2>Populära växter</h2>
-            <a href="sortiment.html" class="view-all">Visa alla</a>
-        </div>
-        <div class="products-container">
-            <div class="product-card">
-                <div class="product-image"><img src="images/image1.jpg" alt="Monstera Deliciosa">
-                </div>
-                <div class="product-info">
-                    <h3>Monstera Deliciosa</h3>
-                    <p class="price">349 kr</p>
-                    <button>Lägg till</button>
-                </div>
-                <p>Trendig och lättskött växt som ger ett tropiskt intryck.</p>
+                <h2>Populära växter</h2>
+                <a href="sortiment.html" class="view-all">Visa alla</a>
+            </div>
+            <div class="products-container">
+                <article class="product-card">
+                    <div class="product-image"><img src="images/image1.jpg" alt="Monstera Deliciosa">
+                    </div>
+                    <div class="product-info">
+                        <h3>Monstera Deliciosa</h3>
+                        <p class="price">349 kr</p>
+                        <button>Lägg till</button>
+                    </div>
+                    <p>Trendig och lättskött växt som ger ett tropiskt intryck.</p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image"><img src="images/image2.jpg" alt="Ficus Lyrata"></div>
+                    <div class="product-info">
+                        <h3>Fikus Lyrata</h3>
+                        <p class="price">499 kr</p>
+                        <button>Lägg till</button>
+                    </div>
+                    <p>Elegant växt med stora blad som blir ett naturligt blickfång.</p>
+
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image"><img src="images/image4.jpg" alt="Snake Plant"></div>
+                    <div class="product-info">
+                        <h3>Snake Plant</h3>
+                        <p class="price">199 kr</p>
+                        <button>Lägg till</button>
+                    </div>
+                    <p>Tålig och lättskött växt som trivs i de flesta hem.</p>
+
+                </article>
             </div>
 
-            <div class="product-card">
-                <div class="product-image"><img src="images/image2.jpg" alt="Ficus Lyrata"></div>
-                <div class="product-info">
-                    <h3>Fikus Lyrata</h3>
-                    <p class="price">499 kr</p>
-                    <button>Lägg till</button>
-                </div>
-                <p>Elegant växt med stora blad som blir ett naturligt blickfång.</p>
+        </section>
 
+
+        <!--ABOUT-->
+        <section class="about">
+            <h2>Varför välja oss?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Vi är en lokal butik med passion för växter. Vi väljer ut varje planta med omsorg
+                        för att säkerställa att den trivs i ditt hem. Vår expertis hjälper dig att hitta rätt växt för
+                        just
+                        ditt
+                        ljusförhållande.
+                    </p>
+                    <div class="desktop-info">
+                        <div class="info">
+                            <span class="check-icon">✓</span>
+                            <p>Fri frakt över 500 kr</p>
+                        </div>
+                        <div class="info">
+                            <span class="check-icon">✓</span>
+                            <p>Personlig rådgivning</p>
+                        </div>
+                        <div class="info">
+                            <span class="check-icon">✓</span>
+                            <p>Friska och välmående växter</p>
+                        </div>
+                        <div class="info">
+                            <span class="check-icon">✓</span>
+                            <p>Noggrant utvalt sortiment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image"><img src="images/image3.jpg" alt="Flera inomhusväxter"></div>
             </div>
-            <div class="product-card">
-                <div class="product-image"><img src="images/image4.jpg" alt="Snake Plant"></div>
-                <div class="product-info">
-                    <h3>Snake Plant</h3>
-                    <p class="price">199 kr</p>
-                    <button>Lägg till</button>
-                </div>
-                <p>Tålig och lättskött växt som trivs i de flesta hem.</p>
+        </section>
 
+
+        <!--CONTACT-->
+        <section class="contact">
+            <h2>Kontakta oss</h2>
+
+            <div class="contact-container">
+
+                <form id="contactForm">
+                    <label for="name">Namn:</label>
+                    <input type="text" id="name" placeholder="Ditt namn">
+                    <p class="error-message" id="nameError"></p>
+
+                    <label for="email">E-post:</label>
+                    <input type="email" id="email" placeholder="Din@email.se">
+                    <p class="error-message" id="emailError"></p>
+
+                    <label for="message">Meddelande:</label>
+                    <textarea id="message" placeholder="Skriv ditt meddelande här.."></textarea>
+                    <p class="error-message" id="messageError"></p>
+
+                    <button type="submit">Skicka meddelande</button>
+                    <p class="success-message" id="successMessage"></p>
+                </form>
+                <aside class="opening-hours">
+                    <h3>Öppettider</h3>
+                    <div class="hours-row">
+                        <span>Må-Fre</span>
+                        <span>10:00-18:00</span>
+                    </div>
+                    <div class="hours-row">
+                        <span>Lör</span>
+                        <span>11:00-16:00</span>
+                    </div>
+                    <div class="hours-row">
+                        <span>Sön</span>
+                        <span>Stängt</span>
+                    </div>
+                </aside>
             </div>
-        </div>
 
-    </section>
-
-
-    <!--OM OSS-->
-    <section class="about">
-        <h2>Varför välja oss?</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>Vi är en lokal butik med passion för växter. Vi väljer ut varje planta med omsorg
-                    för att säkerställa att den trivs i ditt hem. Vår expertis hjälper dig att hitta rätt växt för just
-                    ditt
-                    ljusförhållande.
-                </p>
-                <div class="desktop-info">
-                    <div class="info">
-                        <span class="check-icon">✓</span>
-                        <p>Fri frakt över 500 kr</p>
-                    </div>
-                    <div class="info">
-                        <span class="check-icon">✓</span>
-                        <p>Personlig rådgivning</p>
-                    </div>
-                    <div class="info">
-                        <span class="check-icon">✓</span>
-                        <p>Friska och välmående växter</p>
-                    </div>
-                    <div class="info">
-                        <span class="check-icon">✓</span>
-                        <p>Noggrant utvalt sortiment</p>
-                    </div>
-                </div>
-            </div>
-            <div class="about-image"><img src="images/image3.jpg" alt="Flera inomhusväxter"></div>
-
-        </div>
-    </section>
-
-
-    <!--KONTAKT-->
-    <section class="contact">
-        <h2>Kontakta oss</h2>
-
-        <div class="contact-container">
-
-            <form id="contactForm">
-                <label for="name">Namn:</label>
-                <input type="text" id="name" placeholder="Ditt namn">
-                <p class="error-message" id="nameError"></p>
-
-                <label for="email">E-post:</label>
-                <input type="email" id="email" placeholder="Din@email.se">
-                <p class="error-message" id="emailError"></p>
-
-                <label for="message">Meddelande:</label>
-                <textarea id="message" placeholder="Skriv ditt meddelande här.."></textarea>
-                <p class="error-message" id="messageError"></p>
-
-                <button type="submit">Skicka meddelande</button>
-                <p class="success-message" id="successMessage"></p>
-            </form>
-            <aside class="opening-hours">
-                <h3>Öppettider</h3>
-                <div class="hours-row">
-                    <span>Må-Fre</span>
-                    <span>10:00-18:00</span>
-                </div>
-                <div class="hours-row">
-                    <span>Lör</span>
-                    <span>11:00-16:00</span>
-                </div>
-                <div class="hours-row">
-                    <span>Sön</span>
-                    <span>Stängt</span>
-                </div>
-            </aside>
-        </div>
-
-    </section>
-
+        </section>
+    </main>
 
     <!--FOOTER-->
     <footer>
